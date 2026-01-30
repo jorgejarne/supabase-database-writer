@@ -134,18 +134,6 @@ The `id` and `created_at` fields are handled by Supabase automatically.
 - Use a `.env` file with python-dotenv
 - Never commit API keys to version control
 
-## Example: Using Environment Variables
-
-```python
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-
-SUPABASE_URL = os.getenv('SUPABASE_URL')
-API_KEY = os.getenv('SUPABASE_API_KEY')
-```
-
 ## License
 
 Free to use and modify as needed.
