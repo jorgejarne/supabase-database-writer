@@ -4,12 +4,12 @@ A Python script that sends continuous WRITE requests to a Supabase database endp
 
 ## Features
 
-✅ **Rate Limiting**: Randomized delays between requests (2-5 seconds by default)
-✅ **Batch Pauses**: Long pauses after every N requests to avoid rate limiting
-✅ **Random Data Generation**: Creates varied test data to appear more natural
-✅ **Statistics Tracking**: Monitors success/failure rates
-✅ **Error Handling**: Gracefully handles network issues and API errors
-✅ **Configurable**: Easy to adjust timing and behavior
+**Rate Limiting**: Randomized delays between requests (2-5 seconds by default)
+**Batch Pauses**: Long pauses after every N requests to avoid rate limiting
+**Random Data Generation**: Creates varied test data to appear more natural
+**Statistics Tracking**: Monitors success/failure rates
+**Error Handling**: Gracefully handles network issues and API errors
+**Configurable**: Easy to adjust timing and behavior
 
 ## Anti-Blocking Measures
 
